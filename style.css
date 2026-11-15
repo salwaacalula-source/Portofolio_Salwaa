@@ -1,0 +1,122 @@
+:root {
+    --nude-bg: #faf3f0;
+    --nude-section: #f3e4de;
+    --rose: #b9787a;
+    --rose-dark: #8f5558;
+    --text: #4a3b3b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--nude-bg);
+    color: var(--text);
+}
+
+section {
+    padding: 80px 0;
+}
+
+.hero {
+    min-height: 100vh;
+    padding-top: 120px;
+    background-color: var(--nude-bg);
+}
+
+.foto-profil {
+    max-width: 280px;
+    border: 6px solid #fff;
+}
+
+.text-muted {
+    color: #8a7a78 !important;
+}
+
+/* Latar section, navbar, footer */
+.bg-pink,
+.bg-pink-softer {
+    background-color: var(--nude-section) !important;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 1px 8px rgba(143, 85, 88, 0.12);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: var(--rose-dark) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--rose) !important;
+}
+
+.navbar .navbar-toggler {
+    border-color: var(--rose-dark);
+}
+
+.navbar .navbar-toggler-icon {
+    filter: invert(1) sepia(1) saturate(2) hue-rotate(310deg) brightness(0.7);
+}
+
+/* Footer */
+footer.bg-pink {
+    color: var(--rose-dark);
+}
+
+/* Kartu */
+.card {
+    border: none;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+/* Warna aksen */
+.text-pink {
+    color: var(--rose) !important;
+}
+
+.btn-pink {
+    background-color: var(--rose);
+    border-color: var(--rose);
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn-pink:hover {
+    background-color: var(--rose-dark);
+    border-color: var(--rose-dark);
+    color: #fff;
+}
+
+.btn-outline-pink {
+    color: var(--rose-dark);
+    border-color: var(--rose);
+    border-radius: 50px;
+}
+
+.btn-outline-pink:hover {
+    background-color: var(--rose);
+    border-color: var(--rose);
+    color: #fff;
+}
+
+/* Link di bagian kontak */
+#contact a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: var(--rose-dark);
+    text-decoration: underline;
+}
+
+/* Form */
+.form-control:focus {
+    border-color: var(--rose);
+    box-shadow: 0 0 0 0.2rem rgba(185, 120, 122, 0.25);
+}
